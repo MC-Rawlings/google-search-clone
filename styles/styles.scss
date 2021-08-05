@@ -1,8 +1,12 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+@import '__defaults';
+
+.header-main {
+  display: flex;
+  justify-content: flex-end;
 }
 
+.header-navigation {
+  font-size: 0.8125rem;
+  display: flex;
+  flex-direction: row;
+}
