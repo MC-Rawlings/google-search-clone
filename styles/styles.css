@@ -24,12 +24,17 @@ body {
 .header-main {
   display: flex;
   justify-content: flex-end;
+  padding: 20px 20px;
 }
 
 .header-navigation {
   font-size: 0.8125rem;
   display: flex;
   flex-direction: row;
+}
+
+.navigation-links {
+  padding: 5px 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
