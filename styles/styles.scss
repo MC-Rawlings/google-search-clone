@@ -15,3 +15,28 @@
 .navigation-links {
   padding: 5px 10px;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+
+  img {
+    width: 272px;
+    height: 92px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+
+    input[type='text'] {
+      width: 580px;
+      max-width: 90vw;
+      height: 44px;
+    }
+  }
+}
