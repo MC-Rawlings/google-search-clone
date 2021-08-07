@@ -73,8 +73,8 @@ main form .search-wrapper:hover {
   box-shadow: 0 2px 6px rgba(175, 175, 175, 0.37);
 }
 main form .search-wrapper img {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
 }
 main form .search-wrapper input[type=text] {
   width: 480px;
@@ -85,6 +85,21 @@ main form .search-wrapper input[type=text] {
 }
 main form .search-wrapper input[type=text]:focus {
   outline: none;
+}
+main form input[type=submit] {
+  font-size: 14px;
+  color: #3c4043;
+  width: 127.5px;
+  height: 34px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  margin-top: 33px;
+  padding: 0 16px;
+}
+main form input[type=submit]:hover {
+  color: #202124;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #dadce0;
 }
 
 /*# sourceMappingURL=styles.css.map */
