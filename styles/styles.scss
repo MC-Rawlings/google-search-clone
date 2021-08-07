@@ -13,7 +13,11 @@
 }
 
 .navigation-links {
-  padding: 5px 10px;
+  padding: 5px 7.5px;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 main {
@@ -33,10 +37,35 @@ main {
     align-items: center;
     margin-top: 25px;
 
-    input[type='text'] {
+    .search-wrapper {
+      display: flex;
+      align-items: center;
       width: 580px;
-      max-width: 90vw;
       height: 44px;
+      border: 1px solid #dfe1e5;
+      border-radius: 22px;
+      padding: 0 15px;
+
+      &:hover {
+        box-shadow: 0 2px 6px rgba(175, 175, 175, 0.37);
+      }
+
+      img {
+        width: 20px;
+        height: 20px;
+      }
+
+      input[type='text'] {
+        width: 480px;
+        max-width: 90vw;
+        height: 34px;
+        background: transparent;
+        margin-left: 15px;
+
+        &:focus {
+          outline: none;
+        }
+      }
     }
   }
 }

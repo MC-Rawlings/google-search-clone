@@ -8,7 +8,7 @@
     <header class="header-main">
       <nav>
         <ul class="header-navigation">
-          <li class="navigation-links"><a href="#">Image Search</a></li>
+          <li class="navigation-links"><a href="#">Images</a></li>
           <li class="navigation-links"><a href="#">Advanced Search</a></li>
         </ul>
       </nav>
@@ -16,7 +16,10 @@
     <main>
       <img src="styles/images/Google_2015_logo.svg" alt="Google logo" />
       <form action="https://google.com/search">
-        <input type="text" name="q" />
+        <div class="search-wrapper">
+          <img src="styles/images/search-icon.svg" alt="search icon" />
+          <input type="text" name="q" />
+        </div>
         <input type="submit" value="Google Search" />
       </form>
     </main>
