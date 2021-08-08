@@ -1,0 +1,30 @@
+.header-main-advanced {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+  img {
+    width: 74px;
+    height: 24px;
+  }
+}
+
+.main-advanced {
+  margin-left: 45px;
+  margin-top: 20px;
+
+  h1 {
+    color: #d93025;
+    font-size: 1.25em;
+    font-weight: normal;
+  }
+
+  hr {
+    height: 1px;
+    background: #ebebeb;
+    margin-left: -45px;
+    margin-top: 25px;
+    border: none;
+  }
+}
