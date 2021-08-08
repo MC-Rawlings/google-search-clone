@@ -19,6 +19,16 @@ input {
   border: none;
 }
 
+button {
+  background: none;
+  border: none;
+}
+
+button,
+input[type=submit] {
+  cursor: pointer;
+}
+
 body {
   font-family: sans-serif;
   min-height: 100vh;
@@ -102,7 +112,11 @@ main form .search-wrapper input[type=text] {
 main form .search-wrapper input[type=text]:focus {
   outline: none;
 }
-main form input[type=submit] {
+main form .search-wrapper .gimage-submit img {
+  width: 18px;
+  height: 18px;
+}
+main form .gsearch-submit {
   font-size: 14px;
   color: #3c4043;
   width: auto;
@@ -113,7 +127,7 @@ main form input[type=submit] {
   margin-top: 33px;
   padding: 0 16px;
 }
-main form input[type=submit]:hover {
+main form .gsearch-submit:hover {
   color: #202124;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   border: 1px solid #dadce0;

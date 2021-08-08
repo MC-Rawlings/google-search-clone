@@ -75,9 +75,16 @@ main {
           outline: none;
         }
       }
+
+      .gimage-submit {
+        img {
+          width: 18px;
+          height: 18px;
+        }
+      }
     }
 
-    input[type='submit'] {
+    .gsearch-submit {
       font-size: 14px;
       color: #3c4043;
       width: auto;

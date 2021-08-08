@@ -19,6 +19,16 @@ input {
   border: none;
 }
 
+button {
+  background: none;
+  border: none;
+}
+
+button,
+input[type='submit'] {
+  cursor: pointer;
+}
+
 body {
   font-family: sans-serif;
   min-height: 100vh;
