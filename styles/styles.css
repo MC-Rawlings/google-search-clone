@@ -89,9 +89,10 @@ main form .search-wrapper input[type=text]:focus {
 main form input[type=submit] {
   font-size: 14px;
   color: #3c4043;
-  width: 127.5px;
+  width: auto;
   height: 34px;
   background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
   border-radius: 4px;
   margin-top: 33px;
   padding: 0 16px;
