@@ -54,6 +54,10 @@ main img {
   width: 272px;
   height: 92px;
 }
+main .logo-deco {
+  font-family: "Roboto", sans-serif;
+  color: #4285f4;
+}
 main form {
   display: flex;
   flex-direction: column;
