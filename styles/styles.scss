@@ -1,4 +1,5 @@
 @use '__defaults';
+@use '__image';
 
 .header-main {
   display: flex;
@@ -34,6 +35,9 @@ main {
   .logo-deco {
     font-family: 'Roboto', sans-serif;
     color: #4285f4;
+    position: relative;
+    bottom: 17.5px;
+    left: 105px;
   }
 
   form {

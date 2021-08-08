@@ -25,6 +25,15 @@ body {
   width: 100%;
 }
 
+.logo-deco {
+  font-family: "Roboto", sans-serif;
+  color: #4285f4;
+}
+
+.img-form {
+  margin-top: 10px;
+}
+
 .header-main {
   display: flex;
   justify-content: flex-end;
@@ -57,6 +66,9 @@ main img {
 main .logo-deco {
   font-family: "Roboto", sans-serif;
   color: #4285f4;
+  position: relative;
+  bottom: 17.5px;
+  left: 105px;
 }
 main form {
   display: flex;
