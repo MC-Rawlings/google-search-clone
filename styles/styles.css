@@ -72,6 +72,59 @@ body {
   border: none;
 }
 
+.as-wrapper {
+  margin-top: 50px;
+  height: 200px;
+}
+.as-wrapper .as-headers {
+  width: 925px;
+  display: flex;
+  justify-content: space-between;
+}
+.as-wrapper .as-headers h2 {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #333;
+}
+.as-wrapper .as-headers .extra-info {
+  font-size: 0.8125rem;
+  color: #777;
+  font-weight: bold;
+}
+.as-wrapper .as-form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 5px;
+}
+.as-wrapper .as-form label {
+  font-size: 0.8125rem;
+  color: #222;
+  width: 165px;
+}
+.as-wrapper .as-form input {
+  width: 572px;
+  height: 29px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  border-radius: 1px;
+}
+.as-wrapper .as-form .input-wrapper {
+  max-width: 1200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.as-wrapper .as-form .input-wrapper p {
+  font-size: 0.6875rem;
+  color: #555;
+  margin-left: 10px;
+}
+.as-wrapper .as-form .input-wrapper p span {
+  font-family: monospace;
+}
+
 .header-main {
   display: flex;
   justify-content: flex-end;

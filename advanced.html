@@ -26,8 +26,39 @@
       <header class="advanced-header">
         <h1>Advanced Search</h1>
       </header>
-      <hr>
-      <form action="https://google.com/search"></form>
+      <hr />
+      <div class="as-wrapper">
+        <div class="as-headers">
+          <h2>Find pages with...</h2>
+          <span class="extra-info">To do this in the search box.</span>
+        </div>
+
+        <form class="as-form" action="https://google.com/search">
+          <div class="input-wrapper">
+            <label for="all">all these words:</label>
+            <input type="text" name="all" id="all" />
+            <p>Type the important words: <span>tri-colour rat terrier</span></p>
+          </div>
+          <div class="input-wrapper">
+            <label for="exact">this exact word or phrase:</label>
+            <input type="text" name="exact" id="exact" />
+            <p>Put exact words in quotes: <span>"rat terrier"</span></p>
+          </div>
+          <div class="input-wrapper">
+            <label for="any">any of these words:</label>
+            <input type="text" name="any" id="any" />
+            <p>
+              Type <span>OR</span> between all the words you want:
+              <span>miniature OR standard</span>
+            </p>
+          </div>
+          <div class="input-wrapper">
+            <label for="none">none of these words:</label>
+            <input type="text" name="none" id="none" />
+            <p>Type the important words: <span>tri-colour rat terrier</span></p>
+          </div>
+        </form>
+      </div>
     </main>
   </body>
 </html>
