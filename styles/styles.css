@@ -44,6 +44,34 @@ body {
   margin-top: 10px;
 }
 
+.header-main-advanced {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.header-main-advanced img {
+  width: 74px;
+  height: 24px;
+}
+
+.main-advanced {
+  margin-left: 45px;
+  margin-top: 20px;
+}
+.main-advanced h1 {
+  color: #d93025;
+  font-size: 1.25em;
+  font-weight: normal;
+}
+.main-advanced hr {
+  height: 1px;
+  background: #ebebeb;
+  margin-left: -45px;
+  margin-top: 25px;
+  border: none;
+}
+
 .header-main {
   display: flex;
   justify-content: flex-end;
@@ -63,30 +91,30 @@ body {
   text-decoration: underline;
 }
 
-main {
+.main-search {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 200px;
 }
-main img {
+.main-search img {
   width: 272px;
   height: 92px;
 }
-main .logo-deco {
+.main-search .logo-deco {
   font-family: "Roboto", sans-serif;
   color: #4285f4;
   position: relative;
   bottom: 17.5px;
   left: 105px;
 }
-main form {
+.main-search form {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 25px;
 }
-main form .search-wrapper {
+.main-search form .search-wrapper {
   display: flex;
   align-items: center;
   width: 565px;
@@ -95,28 +123,28 @@ main form .search-wrapper {
   border-radius: 22px;
   padding: 0 15px;
 }
-main form .search-wrapper:hover {
+.main-search form .search-wrapper:hover {
   box-shadow: 0 2px 6px rgba(175, 175, 175, 0.37);
 }
-main form .search-wrapper img {
+.main-search form .search-wrapper img {
   width: 15px;
   height: 15px;
 }
-main form .search-wrapper input[type=text] {
+.main-search form .search-wrapper input[type=text] {
   width: 480px;
   max-width: 90vw;
   height: 34px;
   background: transparent;
   margin-left: 15px;
 }
-main form .search-wrapper input[type=text]:focus {
+.main-search form .search-wrapper input[type=text]:focus {
   outline: none;
 }
-main form .search-wrapper .gimage-submit img {
+.main-search form .search-wrapper .gimage-submit img {
   width: 18px;
   height: 18px;
 }
-main form .gsearch-submit {
+.main-search form .gsearch-submit {
   font-size: 14px;
   color: #3c4043;
   width: auto;
@@ -127,7 +155,7 @@ main form .gsearch-submit {
   margin-top: 33px;
   padding: 0 16px;
 }
-main form .gsearch-submit:hover {
+.main-search form .gsearch-submit:hover {
   color: #202124;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   border: 1px solid #dadce0;

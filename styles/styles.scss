@@ -1,5 +1,6 @@
 @use '__defaults';
 @use '__image';
+@use '__advanced';
 
 .header-main {
   display: flex;
@@ -21,7 +22,7 @@
   }
 }
 
-main {
+.main-search {
   display: flex;
   flex-direction: column;
   align-items: center;
